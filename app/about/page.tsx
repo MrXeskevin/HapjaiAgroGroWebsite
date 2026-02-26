@@ -5,28 +5,17 @@ import { Footer } from "@/components/footer"
 import { CheckCircle2, Target, Eye, Trophy, MapPin } from "lucide-react"
 
 export default function About() {
-  const partners = [
-    { name: "Bukoola", logo: "/images/partner-bukoola.jpg" },
-    { name: "UGDA", logo: "/images/partner-ugda.jpg" },
-    { name: "MAAIF", logo: "/images/partner-maaif.jpg" },
-    { name: "EzyAgric", logo: "/images/partner-ezyagric.jpg" },
-    { name: "Osho", logo: "/images/partner-osho.jpg" },
-    { name: "Grainpulse", logo: "/images/partner-grainpulse.jpg" },
-    { name: "Quantum Foods", logo: "/images/partner-quantum.jpg" },
-    { name: "Women Coffee Association", logo: "/images/partner-women-coffee.jpg" },
-  ]
-
   const partnerLogos = [
-    { name: "International Women's Coffee Alliance", logo: "/images/partner-women-coffee.jpg" },
-    { name: "World Coffee Producers Forum", logo: "/images/partner-wff.jpg" },
-    { name: "UGDA", logo: "/images/partner-ugda.jpg" },
-    { name: "EzyAgric", logo: "/images/partner-ezyagric.jpg" },
-    { name: "Bukoola Chemical Industries", logo: "/images/partner-bukoola.png" },
-    { name: "MAAIF", logo: "/images/partner-maaif.jpg" },
-    { name: "Osho", logo: "/images/partner-osho.jpg" },
-    { name: "Grainpulse", logo: "/images/partner-grainpulse.jpg" },
-    { name: "Quantum Foods", logo: "/images/partner-quantum.jpg" },
-    { name: "Gbonda Limited", logo: "/images/partner-gbonda.jpg" },
+    { name: "KIMA Foods", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.04-HsdpoJEC48lYumoULQ0p4WmH8Tfcvb.jpeg" },
+    { name: "Raising the Village", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.04%20%283%29-WefCU6gO6IJrZ73Y5S0FdHVHhdVlkv.jpeg" },
+    { name: "Grainpulse Ltd", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.05-K8olnu0ekx56WnCiuTdjU0Sc0z9eTy.jpeg" },
+    { name: "Ministry of Agriculture, Animal Industry & Fisheries", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.04%20%281%29-IiXLYm6hPDlSIdocAbv1px9rNXldNw.jpeg" },
+    { name: "SwissContact", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.03%20%281%29-vG4eEob9qHej4XipyZ2LUQQKmMQSLr.jpeg" },
+    { name: "Bukoola Chemical Industries", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.06-z4yDOagDM8SdnIZdLIGpUcdUExA4nJ.jpeg" },
+    { name: "Enabel", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.03-kyzGRdBQZuAoISBABE9BADpYyi7SJA.jpeg" },
+    { name: "FAO", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.04%20%282%29-pj2XU6AjkOnxAfmYcmdkq7XJ0Z7U8r.jpeg" },
+    { name: "EzyAgric", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.04%20%284%29-guQ8brwkO885pjhxq1lMssKYJHgJar.jpeg" },
+    { name: "The World Bank", logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-02-26%20at%2009.33.03%20%282%29-6LbdQVQAbiBEAyUMCTJ84NoRa13Tyl.jpeg" },
   ]
 
   return (
@@ -94,8 +83,8 @@ export default function About() {
               <img src="/images/ceo-20photo.jpg" alt="CEO" className="w-full h-full object-cover" />
             </div>
             <div className="flex-1">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Chief Executive Officer</h3>
-              <p className="text-green-600 font-semibold mb-4">Visionary Leader</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-1">Abenaitwe Nicholas</h3>
+              <p className="text-green-600 font-semibold mb-4">Chief Executive Officer</p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 Our CEO provides strategic leadership and farmer-centric direction for HAPJAI's programs and
                 partnerships. With over a decade of experience in agricultural development, they have championed
@@ -262,11 +251,11 @@ export default function About() {
                   <MapPin className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 text-lg">Kampala</h3>
+                  <h3 className="font-bold text-gray-900 text-lg">Mbarara</h3>
                   <p className="text-green-600 text-sm font-semibold">Head Office</p>
                 </div>
               </div>
-              <p className="text-gray-600 text-sm">Central operations and administration</p>
+              <p className="text-gray-600 text-sm">Buremba Road, Centenary Building, Room No. 8</p>
             </div>
             <div className="p-6 border border-gray-200 rounded-2xl bg-white hover:shadow-lg transition-shadow">
               <div className="flex items-start gap-3 mb-3">
@@ -274,11 +263,11 @@ export default function About() {
                   <MapPin className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 text-lg">Mbale Branch</h3>
-                  <p className="text-gray-600 text-sm">Eastern Region</p>
+                  <h3 className="font-bold text-gray-900 text-lg">Kyenjojo</h3>
+                  <p className="text-gray-600 text-sm">Field Office</p>
                 </div>
               </div>
-              <p className="text-gray-600 text-sm">Serving coffee and cereal farmers</p>
+              <p className="text-gray-600 text-sm">Behind World Food Program offices, Kyenjojo Tc, Kyenjojo District</p>
             </div>
             <div className="p-6 border border-gray-200 rounded-2xl bg-white hover:shadow-lg transition-shadow">
               <div className="flex items-start gap-3 mb-3">
@@ -286,11 +275,11 @@ export default function About() {
                   <MapPin className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 text-lg">Mbarara Branch</h3>
-                  <p className="text-gray-600 text-sm">Western Region</p>
+                  <h3 className="font-bold text-gray-900 text-lg">Rubanda</h3>
+                  <p className="text-gray-600 text-sm">Field Office</p>
                 </div>
               </div>
-              <p className="text-gray-600 text-sm">Supporting dairy and banana farmers</p>
+              <p className="text-gray-600 text-sm">Muko trading centre, Kabale-Kisoro road</p>
             </div>
             <div className="p-6 border border-gray-200 rounded-2xl bg-white hover:shadow-lg transition-shadow">
               <div className="flex items-start gap-3 mb-3">
@@ -298,11 +287,11 @@ export default function About() {
                   <MapPin className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 text-lg">Kyenjojo Branch</h3>
-                  <p className="text-gray-600 text-sm">Mid-Western Region</p>
+                  <h3 className="font-bold text-gray-900 text-lg">Kasese</h3>
+                  <p className="text-gray-600 text-sm">Field Office</p>
                 </div>
               </div>
-              <p className="text-gray-600 text-sm">Maize milling and input distribution hub</p>
+              <p className="text-gray-600 text-sm">Mugusu Tourist Hotel Building, Kirembe Road, Kasese Municipality</p>
             </div>
             <div className="p-6 border border-gray-200 rounded-2xl bg-white hover:shadow-lg transition-shadow">
               <div className="flex items-start gap-3 mb-3">
@@ -310,11 +299,35 @@ export default function About() {
                   <MapPin className="w-5 h-5 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 text-lg">Kasese Branch</h3>
-                  <p className="text-gray-600 text-sm">Rwenzori Region</p>
+                  <h3 className="font-bold text-gray-900 text-lg">Kakumiro</h3>
+                  <p className="text-gray-600 text-sm">Outlet</p>
                 </div>
               </div>
-              <p className="text-gray-600 text-sm">Coffee and cocoa farming support</p>
+              <p className="text-gray-600 text-sm">Kakumiro Town</p>
+            </div>
+            <div className="p-6 border border-gray-200 rounded-2xl bg-white hover:shadow-lg transition-shadow">
+              <div className="flex items-start gap-3 mb-3">
+                <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-5 h-5 text-green-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900 text-lg">Kikuube</h3>
+                  <p className="text-gray-600 text-sm">Outlet</p>
+                </div>
+              </div>
+              <p className="text-gray-600 text-sm">Kikuube Trading Centre</p>
+            </div>
+            <div className="p-6 border border-gray-200 rounded-2xl bg-white hover:shadow-lg transition-shadow">
+              <div className="flex items-start gap-3 mb-3">
+                <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-5 h-5 text-green-600" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900 text-lg">Mitooma</h3>
+                  <p className="text-gray-600 text-sm">Outlet</p>
+                </div>
+              </div>
+              <p className="text-gray-600 text-sm">Pioneer Guest House on Mitooma-Rukungiri Highway</p>
             </div>
           </div>
         </div>
