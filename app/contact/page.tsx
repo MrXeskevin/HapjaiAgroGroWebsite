@@ -57,9 +57,10 @@ export default function Contact() {
                 </p>
                 <p>
                   <strong>Office Locations:</strong>
-                  <br />• Kampala Head Office - Buremba Road, Kakoba
-                  <br />• Mbale Branch
-                  <br />• Mbarara Branch
+                  <br />• Head Office: Mbarara - Buremba Road, Centenary Building, Room No. 8
+                  <br />• Field Office: Kyenjojo - Behind WFP offices, Kyenjojo Tc
+                  <br />• Field Office: Rubanda - Muko trading centre, Kabale-Kisoro road
+                  <br />• Field Office: Kasese - Mugusu Tourist Hotel Building, Kirembe Road
                 </p>
               </div>
             </div>
@@ -80,16 +81,16 @@ export default function Contact() {
 
               <div className="mt-6 grid grid-cols-1 gap-4">
                 <div className="p-4 bg-green-50 rounded-lg border border-green-200">
-                  <h3 className="font-semibold text-green-900 mb-1">Kampala Head Office</h3>
-                  <p className="text-sm text-green-800">Buremba Road, Kakoba</p>
+                  <h3 className="font-semibold text-green-900 mb-1">Head Office - Mbarara</h3>
+                  <p className="text-sm text-green-800">Buremba Road, Centenary Building, Room No. 8</p>
                 </div>
                 <div className="p-4 bg-green-50 rounded-lg border border-green-200">
-                  <h3 className="font-semibold text-green-900 mb-1">Mbale Branch</h3>
-                  <p className="text-sm text-green-800">Serving Eastern Uganda</p>
+                  <h3 className="font-semibold text-green-900 mb-1">Kyenjojo Field Office</h3>
+                  <p className="text-sm text-green-800">Behind WFP offices, Kyenjojo Tc, Kyenjojo District</p>
                 </div>
                 <div className="p-4 bg-green-50 rounded-lg border border-green-200">
-                  <h3 className="font-semibold text-green-900 mb-1">Mbarara Branch</h3>
-                  <p className="text-sm text-green-800">Serving Southwestern Uganda</p>
+                  <h3 className="font-semibold text-green-900 mb-1">Kasese Field Office</h3>
+                  <p className="text-sm text-green-800">Mugusu Tourist Hotel Building, Kirembe Road</p>
                 </div>
               </div>
             </div>
